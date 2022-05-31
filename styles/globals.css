@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+@font-face {
+    font-family: 'BBBBaskervvol-Base';
+    src: url(./fonts/BBBBaskervvol-Base.ttf);
+    font-family: 'NotCourierSans';
+    src: url(./fonts/NotCourierSans.ttf);
+    font-family: 'LackItalic';
+    src: url(./fonts/Lack-Italic.otf);
+    font-family: 'ABeeZee';
+   
+
+}
