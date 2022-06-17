@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { createClient } from 'contentful'
 import AboutPage from '../content/AboutPage'
+import Navbar from '../components/Navbar'
 
 export async function getStaticProps() {
   
@@ -31,6 +32,7 @@ export default function Home({ about }) {
        
      </Head>
   
+     <Navbar /> 
     <div className='flex items-center justify-center'>
     {about.map(page => (
      <AboutPage key={page.sys.id} page={page} />

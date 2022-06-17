@@ -19,7 +19,7 @@ export default function ContactPage({ contact }) {
             </div>
 
             <div className='pt-10'>
-                 <div className="lex items-center justify-center p-4 prose font-Baskervvol-Base">
+                 <div className="flex items-center justify-center p-4 prose font-Baskervvol-Base">
                     {documentToReactComponents(contactDescription)}
                 </div>
                </div>
@@ -47,7 +47,7 @@ export default function ContactPage({ contact }) {
                 </div> 
                 </div>
                 <div>
-                    <div className="pt-10">
+                    <div className="pt-10 pl-4">
                         <h6 className="font-semibold">
                             desgin and development
                         </h6>

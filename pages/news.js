@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { createClient } from 'contentful'
 import NewsPage from '../content/NewsPage'
+import Navbar from '../components/Navbar'
 
 export async function getStaticProps() {
   
@@ -28,6 +29,7 @@ export default function News ({ news }) {
        </title>
        <meta name="keywords" content="allosunshine news page" /> 
      </Head>
+     <Navbar />
               <div>
                 <h1 className="flex items-center justify-center italic">allôsunshine/</h1>
               </div>

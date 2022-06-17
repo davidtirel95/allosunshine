@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import { createClient } from 'contentful'
 import JoinPage from '../content/JoinPage'
-
+import Navbar from '../components/Navbar'
 export async function getStaticProps() {
   
   const client = createClient({
@@ -28,6 +28,7 @@ export default function Join ({ join }) {
        </title>
        <meta name="keywords" content="allosunshine join" /> 
      </Head>
+     <Navbar />
      <div>
                 <h1 className="flex items-center justify-center italic">allôsunshine/</h1>
               </div>

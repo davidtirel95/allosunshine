@@ -13,7 +13,7 @@ export default function JoinPage({ join }) {
             </div>
 
             <div>
-                 <div className="prose font-Baskervvol-Base pt-20 ">
+                 <div className="prose font-Baskervvol-Base pt-20 pl-4 pr-4">
                     {documentToReactComponents(joinDescription)}
                 </div>
             <div className='flex items-center justify-center pt-20'>

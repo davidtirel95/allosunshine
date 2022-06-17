@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import { createClient } from 'contentful'
 import ContactPage from '../content/ContactPage'
+import Navbar from '../components/Navbar'
+
 
 export async function getStaticProps() {
   
@@ -29,6 +31,8 @@ export default function Contact({ contact }) {
        </title>
        <meta name="keywords" content="allosunshine contact page" /> 
      </Head>
+
+     <Navbar />
   
     <div className='flex items-center justify-center'>
      {contact.map(contact => (
