@@ -32,7 +32,7 @@ const Enavbar = () => {
                <Link className='nav-link' href="/en-news"><a>news</a></Link>
             </li >
            <li className='p-4'>
-               <Link className='nav-link' href="/jpeg"><a>jpeg</a></Link>
+               <Link className='nav-link' href="/en-jpeg"><a>jpeg</a></Link>
             </li >
            <li className='p-4'>
                <Link className='nav-link' href="/en-join"><a>join</a></Link>
@@ -60,7 +60,7 @@ const Enavbar = () => {
             <ul className='pt-24 p-4 items-center justify-center block md:hidden'>
             <li className='p-4 text-white' ><Link className='nav-link p-4 border-b border-gray-600' href="/en-index"><a>about</a></Link></li >
            <li className='p-4 text-white'><Link className='nav-link p-4 border-b border-gray-600' href="/en-news"><a>news</a></Link></li >
-           <li className='p-4 text-white'><Link className='nav-link p-4 border-b border-gray-600' href="/jpeg"><a>jpeg</a></Link></li >
+           <li className='p-4 text-white'><Link className='nav-link p-4 border-b border-gray-600' href="/en-jpeg"><a>jpeg</a></Link></li >
            <li className='p-4 text-white'><Link className='nav-link p-4 border-b border-gray-600' href="/en-join"><a>join</a></Link></li >
            <li className='p-4 text-white'><Link className='nav-link p-4 border-b border-gray-600' href="/en-contact"><a>contact</a></Link></li >
            <li className='p-4 text-white'><Link className='nav-link flex pl-4 pt-4 border-b border-gray-600' href="/en-index"><a>en/</a></Link>

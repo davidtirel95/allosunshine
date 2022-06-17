@@ -2,8 +2,8 @@ import Head from 'next/head'
 import { createClient } from 'contentful'
 import JoinPage from '../content/JoinPage'
 import Navbar from '../components/Navbar'
+
 export async function getStaticProps() {
-  
   const client = createClient({
     space: process.env.CONTENTFUL_SPACE_ID,
     accessToken: process.env.CONTENTFUL_ACCESS_KEY
